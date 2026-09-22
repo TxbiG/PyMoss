@@ -2,15 +2,21 @@
 # PyMoss
 PyMoss is a `pybind11`  binding project for [Moss Framework](https://github.com/TxbiG/MossFramework).
 
-## Example
+## Documentation
 
-```python
-import pymoss
+Comprehensive documentation is available in the [`docs/`](./docs) directory:
 
-with pymoss.Window("PyMoss", 1280, 720) as window:
-    while not window.should_close():
-        pymoss.poll_events()
-```
+* Architecture overview
+* Rendering system design
+* Physics system design
+* Audio pipeline
+* Input system
+* Networking model
+* Platform backend architecture
+* Performance guidelines
+
+- [API cheatsheet](docs/API_Cheatsheet.md)
+- [Roadmap](docs/roadmap.md)
 
 ## Compiling
 - Python 3
