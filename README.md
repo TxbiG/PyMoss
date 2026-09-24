@@ -16,7 +16,6 @@ Comprehensive documentation is available in the [`docs/`](./docs) directory:
 * Performance guidelines
 
 - [API cheatsheet](docs/API_Cheatsheet.md)
-- [Roadmap](docs/roadmap.md)
 
 ## Compiling
 - Python 3
