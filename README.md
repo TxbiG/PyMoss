@@ -1,4 +1,4 @@
-[![Build](https://github.com/TxbiG/pyMoss/actions/workflows/build.yml/badge.svg)](https://github.com/TxbiG/pyMoss/actions/workflows/build.yml)
+[![Build](https://github.com/TxbiG/PyMoss/actions/workflows/build.yml/badge.svg)](https://github.com/TxbiG/PyMoss/actions/workflows/build.yml)
 # PyMoss
 PyMoss is a `pybind11`  binding project for [Moss Framework](https://github.com/TxbiG/MossFramework).
 
