@@ -1,6 +1,6 @@
 [![Build](https://github.com/TxbiG/PyMoss/actions/workflows/build.yml/badge.svg)](https://github.com/TxbiG/PyMoss/actions/workflows/build.yml)
 # PyMoss
-PyMoss is a `pybind11`  binding project for [Moss Framework](https://github.com/TxbiG/MossFramework).
+PyMoss is a Python binding for the [Moss Framework](https://github.com/TxbiG/MossFramework), providing access to Moss's C++ game-engine functionality from Python through pybind11.
 
 ## Documentation
 
