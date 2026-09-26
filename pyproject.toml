@@ -1,20 +1,45 @@
-[build-system]
-requires = ["scikit-build-core>=0.10", "pybind11>=2.12"]
-build-backend = "scikit_build_core.build"
-
 [project]
 name = "PyMoss"
 version = "0.1.0"
-description = "Python bindings for the Moss game framework"
+
+description = "Python bindings for the Moss Framework using pybind11"
+
 readme = "README.md"
-requires-python = ">=3.9"
-license = { text = "MIT" }
-authors = [{ name = "TxbiG" }]
-classifiers = ["Development Status :: 3 - Alpha", "Programming Language :: Python :: 3", "Programming Language :: C++"]
 
-[tool.scikit-build]
-cmake.version = ">=3.20"
-wheel.packages = ["python/pymoss"]
+requires-python = ">=3.10"
 
-[tool.scikit-build.cmake.define]
-MOSS_FRAMEWORK_DIR = "C:/Users/TobyG/Documents/MossFramework"
+license = "MIT"
+
+authors = [ { name = "TxbiG" } ]
+
+keywords = [
+    "moss",
+    "moss-framework",
+    "game-development",
+    "game-engine",
+    "pybind11",
+    "python",
+    "graphics",
+    "physics",
+    "audio"
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Games/Entertainment",
+    "Topic :: Software Development :: Libraries",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: C++",
+    "Programming Language :: C++ :: C++17",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX",
+    "Operating System :: MacOS"
+]
+
+[project.urls]
+Homepage = "https://github.com/TxbiG/PyMoss"
+Repository = "https://github.com/TxbiG/PyMoss"
+Documentation = "https://github.com/TxbiG/PyMoss/tree/main/docs"
+Issues = "https://github.com/TxbiG/PyMoss/issues"
+Changelog = "https://github.com/TxbiG/PyMoss/blob/main/CHANGELOG.md"
