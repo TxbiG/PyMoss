@@ -27,7 +27,7 @@ jobs:
       # ============================================================
 
       - name: Checkout PyMoss
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           path: PyMoss
 
@@ -36,7 +36,7 @@ jobs:
       # ============================================================
 
       - name: Checkout Moss
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: TxbiG/Moss
           path: Moss
